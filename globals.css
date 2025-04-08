@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    border: 3px black solid;
+}
+
+.custom-background-1 {
+    background-image: url('/backgrounds/hero-bg.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.custom-background-2 {
+  background-image: url('/backgrounds/footer-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.custom-background-4 {
+  background-image: url('/backgrounds/hero-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button-1 {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 13.5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+  
+.button-1:hover {
+  background-color: rgb(255, 215, 0);
+  color: white;
+}
+
+.button-2:hover {
+  background-color: rgb(255, 215, 0);
+  color: white;
+}
+
+.button-2 {
+  background-color: rgba(40,129,244,255);
+  border: none;
+  color: white;
+  padding: 13.5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.hr-1 {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
+.hr-2 {
+  border: 1px solid white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
+.container-box {
+  background-color: white;
+  border: 1px solid #f4f4f4;
+  padding-bottom: 250px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 70%;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 100px;
+}
+
+@media (min-width: 1024px) {
+  .container-box {
+    background-color: white;
+    border: 1px solid #f4f4f4;
+    padding-bottom: 250px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 70%;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 100px;
+  }
+}
+
+.container-image {
+  z-index: 2;
+  left: 25%;
+  position: absolute;
+  top: -50px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+}
+
+.button-3 {
+  border: 2px solid rgba(40,129,244,255); 
+  color: rgba(40,129,244,255); 
+  background-color: white; 
+  border-radius: 50px; 
+  padding: 10px 30px; 
+  text-decoration: none; 
+  transition: all 0.3s ease; 
+}
+
+.button-3:hover {
+  border-color: white;
+  color: white; 
+  background-color: rgb(255, 215, 0); 
+}
+
+.button-4 {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 32.22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+  
+.button-4:hover {
+  background-color: rgb(255, 215, 0);
+  color: white;
+}
+
+.custom-text-size-1 {
+  font-size: 4.125rem;
+}
+
+.title {
+  font-size: 2.25rem; 
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 3.97rem; 
+  }
+}
+
+.navbar-bg {
+  background-color: rgba(48,102,190,255);
+}
+
+.border-2 {
+  border: 2px white solid;
+}
+
+.hr-3 {
+  border: 1px solid black;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  margin-left: 2%;
+  margin-right: 8%;
+}
+
+.custom-background-3 {
+  background-image: url('/backgrounds/anouncements-bg.png');
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+
+.button-5 {
+  background-color: rgb(25, 118, 210);
+  border: none;
+  color: white;
+  padding: 13.5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+  
+.button-5:hover {
+  background-color: rgb(255, 215, 0);
+  color: white;
+}
+
+.asd123 {
+  border: 2px black solid;
+  border-radius: 23px;
+  text-align: center;
+  width: 300px;
+  padding-bottom: 80px;
+  margin-bottom: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);
+}
+
+.final-container {
+  max-width: 2000px; 
+}
+
+.bg-translucent-gray {
+  background-color: rgb(148 163 184);
+  opacity: 0.75;
+}
+
+.hr-4 {
+  border: 1px solid black;
+  margin-right: 75%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.images-line {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.image {
+  width: 16px; 
+  height: 8px; 
+  background-size: cover;
+  background-position: center;
+}
+
+.frasertickets {
+  width: 900px;
+  height: auto;
+}
+
+
+@media (max-width: 700px) {
+  .frasertickets {
+    width: 400px;
+    height: auto;
+  }
+}
+
+.button-6 {
+  background-image: url('/hero-bg.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  border: none;
+  color: white;
+  padding: 13.5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.button-6:hover {
+  background-color: rgb(255, 215, 0);
+  color: white;
+}
