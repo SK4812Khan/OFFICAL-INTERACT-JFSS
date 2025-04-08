@@ -1,6 +1,6 @@
 # JFSS INTERACT Website
 
-The official website of JFSS Interact, including:\n
+The official website of JFSS Interact, including:
 About the club:
 About the Rotary organization:
 Meet the team:
